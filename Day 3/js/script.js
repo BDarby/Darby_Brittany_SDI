@@ -117,7 +117,30 @@ console.log(phase);
 var phase2 = "I don't know! \nYou never know;"
 console.log(phase2);
 
+// Boolean
+// kind of light switch - either on or off
+// true or false - NOT "true" or "false"
 
+var yes = true;
 
+var no = false;
 
+//This is not a boolean
+var wrong = "true";
+
+// Order of Operation
+// PEMDAS - Pleas Excuse My Dear Aunt Sally
+//Parenthesis, Exponents, Multiplication, Division, Addition, Subtraction
+
+//Find quiz averages
+var quiz1 = 87;
+var quiz2 = 100;
+var quiz3 = 70;
+
+//average - add them and divide how may there are
+var average = (quiz1 + quiz2 + quiz3)/3;
+console.log(average);
+
+//Do NOT overuse parenthesis
+// var parimeter = (length*2 + (width *2));
 
