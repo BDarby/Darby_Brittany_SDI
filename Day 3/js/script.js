@@ -96,7 +96,26 @@ console.log(counter);
 counter *=4;  //counter = counter *4
 console.log(counter);
 
+//String - is any text variable
+//  "is used at the beginning and the end of the string"
+// used to distinguished between variable name and random text
+// single quotes ' double quotes " are bot use BUT must match
 
+var kermit = "light green";
+
+var frogName = "Kermit";
+
+console.log(frogName);
+
+//Double quote or single quote?
+// can use an escaping character \backslash in front od the apostrophe
+
+var phase = 'I don\'t know'
+console.log(phase);
+
+// Multi-lines by using \n - new line characters
+var phase2 = "I don't know! \nYou never know;"
+console.log(phase2);
 
 
 
