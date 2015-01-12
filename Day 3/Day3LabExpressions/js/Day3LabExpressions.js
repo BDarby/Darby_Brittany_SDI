@@ -71,18 +71,19 @@ console.log(combine);
 var originalPrice= 234.00;  // this is how much the sweater cost originially
 var discountPercentage= .5;  // it's a .5 percent discount
 var Description= "Italian Cashmere sweater"; // the item is an italian cashmere sweater
-var SalesTaxPercentage= .07; // and the sales tax is .07
+var salesTaxPercentage= .07; // and the sales tax is .07
 
 var priceWithoutTax= originalPrice - (discountPercentage * originalPrice);
-var priceWithTax= priceWithTax + originalPrice;
+var discountPrice= originalPrice* (1 - discountPercentage);
+var percentWithTax= discountPrice * (1 + salesTaxPercentage);
 
-console.log("Your "+Description+ " was orginally " +originalPrice+ ", but after a " +SalesTaxPercentage+ " discount, it is now " +priceWithoutTax+ " without tax and  " +priceWithTax+ " with tax ");
-
-
-
+console.log("Your "+Description+ " was orginally " +originalPrice+ ", but after a " +salesTaxPercentage+ " discount, it is now " +priceWithoutTax+ " without tax and  " +percentWithTax+ " with tax ");
 
 
-//I know I don't have the equations right. I am hoping you can help me with it in class Tuesday.
+
+
+
+
 
 
 
