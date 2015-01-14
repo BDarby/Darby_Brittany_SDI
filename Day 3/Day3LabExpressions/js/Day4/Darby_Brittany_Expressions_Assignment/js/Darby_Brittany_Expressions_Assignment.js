@@ -14,10 +14,8 @@ var width= parseInt(prompt("Please enter one number 6 4,9 for the width"));
 
 var rectangle= [length,width];//this is my array of numbers you can choose from. I chose rectangle.
 
-console.log(rectangle[length]);
-console.log(rectangle[width]);
 
-var total= (2* (length + width)); // this is the formula to find the perimeter of a rectangle
+var total= (2* (rectangle[length] + rectangle[width])); // this is the formula to find the perimeter of a rectangle
 
 console.log("The length of the rectangle is " +length+ " and the width of the rectangle is " +width+ " thus the total perimeter of the rectangle is " +total);
 // above is my concatenation and answer.
