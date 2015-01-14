@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54ee73fd-ba38-488a-80f8-2830b6d16b9e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 3/Day3LabExpressions/js/Day4/Darby_Brittany_Expressions_Assignment/Darby_Brittany_Expressions_Assignments.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 3/Day3LabExpressions/js/Day4/Darby_Brittany_Expressions_Assignment/js/Darby_Brittany_Expressions_Assignment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 3/Day3LabExpressions/js/Day4/Darby_Brittany_Expressions_Assignment/js/Day4_casting.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 3/Day3LabExpressions/js/Day4/Darby_Brittany_Expressions_Assignment/js/day4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 3/Day3LabExpressions/js/Day4/Darby_Brittany_Expressions_Assignment/js/day4_prompting.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 3/Day3LabExpressions/js/Day4/Day 4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 3/Day3LabExpressions/js/Day4/Day4Casting.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 3/Day3LabExpressions/js/Day4/Day4prompting.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 3/Day3LabExpressions/js/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Day 3/Day3LabExpressions/js/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 4/Darby_Brittany_Expressions_Assignment/Darby_Brittany_Expressions_Assignment.js" afterPath="$PROJECT_DIR$/Day 4/Darby_Brittany_Expressions_Assignment/Darby_Brittany_Expressions_Assignment.js" />
     </list>
     <ignored path="Darby_Brittany_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,9 +41,11 @@
       <file leaf-file-name="Darby_Brittany_Expressions_Assignment.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day 4/Darby_Brittany_Expressions_Assignment/Darby_Brittany_Expressions_Assignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="740">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.22297297" vertical-offset="0" max-vertical-offset="740">
+              <caret line="11" column="84" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,9 +74,9 @@
         <option value="$PROJECT_DIR$/Day 3/Day3LabExpressions/Day3LabExpressions.js" />
         <option value="$PROJECT_DIR$/Day 3/Day3LabExpressions/js/Day3LabExpressions.js" />
         <option value="$PROJECT_DIR$/Day 4/Day4/Darby_Brittany_Expressions_Assignment/js/Darby_Brittany_Expressions_Assignment.js" />
-        <option value="$PROJECT_DIR$/Day 4/Darby_Brittany_Expressions_Assignment/Darby_Brittany_Expressions_Assignment.js" />
         <option value="$PROJECT_DIR$/Day 4/Darby_Brittany_Expressions_Assignment/Darby_Brittany_Expressions_Assignments.html" />
         <option value="$PROJECT_DIR$/Day 4/Darby_Brittany_Expressions_Assignment/js/Darby_Brittany_Expressions_Assignment.js" />
+        <option value="$PROJECT_DIR$/Day 4/Darby_Brittany_Expressions_Assignment/Darby_Brittany_Expressions_Assignment.js" />
       </list>
     </option>
   </component>
@@ -592,9 +585,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 4/Darby_Brittany_Expressions_Assignment/Darby_Brittany_Expressions_Assignment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="740">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.22297297" vertical-offset="0" max-vertical-offset="740">
+          <caret line="11" column="84" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
