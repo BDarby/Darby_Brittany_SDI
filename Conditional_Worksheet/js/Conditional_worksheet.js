@@ -2,7 +2,7 @@
  /*
 Brittany Darby
 SDI Campus
-1/13/2015
+1/15/2015
 Prompting
  */
 //alert("Testing to see if it work");
@@ -15,15 +15,18 @@ Prompting
 
  var gasMileage= 25;
  var carCapacity= 35;
- var gaugePercent= 33.3*gasMileage/100;
+ var gaugePercent= 33.3;
+
+ var gaugeDecimal = gaugePercent / 100;
+ var totalGasRemaining = gaugeDecimal * carCapacity;
 
 
 
- if(carCapacity>gasMileage){
+ if(totalGasRemaining>gasMileage){
   console.log("Yes you can make it without stopping");
 
  }else{
-  console.log("You only have " +gaugePercent+ " gallons in your tank, better get gas while you can");
+  console.log("You only have " +totalGasRemaining+ " gallons in your tank, better get gas while you can");
  }
 
 
@@ -48,7 +51,7 @@ if(grade>90){
 
  var movieTime= parseInt(prompt("Enter The movie time"));
  var Age= parseInt(prompt("Enter your age"));
- var results= movieTime+Age;
+
 
  if(Age<10){
   console.log("Your ticket will cost $7.00");
