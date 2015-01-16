@@ -7,6 +7,10 @@ Prompting
  */
 //alert("Testing to see if it work");
 
+
+
+
+
 //Expressions with Conditionals
 
  var gasMileage= 25;
@@ -23,7 +27,7 @@ Prompting
 
  //Multiple Results
 
-var grade= (parseInt(prompt("Enter the number of what grade you got")));
+var grade= parseInt(prompt("Enter the number of what grade you got"));
 
 if(grade>90){
  console.log("You have a " +grade+ " which means you earned an A");
@@ -39,4 +43,43 @@ if(grade>90){
 
 
  //Multiple Conditions
+
+ var movieTime= parseInt(prompt("Enter The movie time"));
+ var Age= parseInt(prompt("Enter your age"));
+ var results= movieTime+Age;
+
+ if(Age<10){
+  console.log("Your ticket will cost $7.00");
+ }else if(Age>55){
+  console.log("Your ticket will cost $7.00");
+ }else{
+  console.log("Your ticket will be $12.00");
+ }
+
+if(movieTime<3){
+  console.log("You will have to pay $12.00 for your ticket");
+ } else if( movieTime>5){
+ console.log("You will have to $12.00 for your ticket");
+}else{
+ console.log("You will pay the discount price of $7.00");
+}
+ console.log("The ticket price is "+results);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
