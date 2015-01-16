@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54ee73fd-ba38-488a-80f8-2830b6d16b9e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 2/Darby_Brittany_Flowchart_Assignment/Darby_Brittany_Expressions_Assignment.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 4/Darby_Brittany_Expressions_Assignment/Darby_Brittany_Expressions_Assignments.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Day 4/Darby_Brittany_Expressions_Assignment/js/Darby_Brittany_Expressions_Assignment.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 5/js/Day5_logicalOperators.js" afterPath="$PROJECT_DIR$/Day 5/js/Day5_logicalOperators.js" />
     </list>
     <ignored path="Darby_Brittany_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,36 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Day5Conditional.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 5/js/Day5Conditional.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="925" max-vertical-offset="1740">
-              <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Day5_logicalOperators.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 5/js/Day5_logicalOperators.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Day5_Logical.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day 5/Day5_Logical.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10474861" vertical-offset="0" max-vertical-offset="716">
-              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Darby_Brittany_Expressions_Assignment.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Darby_Brittany_Expressions_Assignment/js/Darby_Brittany_Expressions_Assignment.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,11 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Day5Condtional.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day 5/Day5Condtional.html">
+      <file leaf-file-name="Day5_logicalOperators.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day 5/js/Day5_logicalOperators.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="240">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
+              <caret line="47" column="75" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Day5_Logical.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day 5/Day5_Logical.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.20949721" vertical-offset="0" max-vertical-offset="716">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -101,8 +79,8 @@
         <option value="$PROJECT_DIR$/Day 4/Darby_Brittany_Expressions_Assignment/js/Darby_Brittany_Expressions_Assignment.js" />
         <option value="$PROJECT_DIR$/Day 5/Day5Condtional.html" />
         <option value="$PROJECT_DIR$/Day 5/js/Day5Conditional.js" />
-        <option value="$PROJECT_DIR$/Day 5/js/Day5_logicalOperators.js" />
         <option value="$PROJECT_DIR$/Day 5/Day5_Logical.html" />
+        <option value="$PROJECT_DIR$/Day 5/js/Day5_logicalOperators.js" />
       </list>
     </option>
   </component>
@@ -187,20 +165,6 @@
               <option name="myItemId" value="Darby_Brittany_SDI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Day 4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Darby_Brittany_SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Darby_Brittany_SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -213,24 +177,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Darby_Brittany_Expressions_Assignment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Darby_Brittany_SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Darby_Brittany_SDI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Darby_Brittany_Expressions_Assignment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -513,6 +459,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day 5/js/Day5Conditional.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6756757" vertical-offset="925" max-vertical-offset="1740">
+          <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day 5/Day5Condtional.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14664805" vertical-offset="0" max-vertical-offset="716">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Darby_Brittany_Expressions_Assignment/js/Darby_Brittany_Expressions_Assignment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
@@ -523,34 +485,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day 5/Day5Condtional.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="240">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day 5/js/Day5Conditional.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="925" max-vertical-offset="1740">
-          <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day 5/js/Day5_logicalOperators.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="1095">
+          <caret line="47" column="75" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 5/Day5_Logical.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10474861" vertical-offset="0" max-vertical-offset="716">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.20949721" vertical-offset="0" max-vertical-offset="716">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding />
         </state>
       </provider>
