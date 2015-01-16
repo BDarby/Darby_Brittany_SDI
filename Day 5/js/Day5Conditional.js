@@ -32,3 +32,42 @@ Conditionals
  console.log("What comes after the if statement");
 
  //true in the inside, false in the outside
+
+
+ //relational expression
+
+ //If the kid is over 48" tall, then he can ride
+ var kidHeight=30;
+
+ //create variable for miniumum height
+ var minHeight= 48;
+
+ if(kidHeight> minHeight){
+  console.log("You are tall enough to ride!");
+ } else{
+  //this code will run if the test is false.
+  console.log("Sorry you are too short!");
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
