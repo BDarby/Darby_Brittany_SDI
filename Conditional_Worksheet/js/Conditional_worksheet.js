@@ -15,13 +15,15 @@ Prompting
 
  var gasMileage= 25;
  var carCapacity= 35;
+ var gaugePercent= 33.3*gasMileage/100;
+
 
 
  if(carCapacity>gasMileage){
   console.log("Yes you can make it without stopping");
 
  }else{
-  console.log("You only have " +carCapacity+ " gallons in your tank, better get gas while you can");
+  console.log("You only have " +gaugePercent+ " gallons in your tank, better get gas while you can");
  }
 
 
@@ -52,18 +54,13 @@ if(grade>90){
   console.log("Your ticket will cost $7.00");
  }else if(Age>55){
   console.log("Your ticket will cost $7.00");
- }else{
+ }else if(movieTime<3){
+  console.log("Your ticket will cost $12.00");
+ }else if(movieTime>5){
   console.log("Your ticket will be $12.00");
+ }else{
+  console.log("Your ticket will be $7.00");
  }
-
-if(movieTime<3){
-  console.log("You will have to pay $12.00 for your ticket");
- } else if( movieTime>5){
- console.log("You will have to $12.00 for your ticket");
-}else{
- console.log("You will pay the discount price of $7.00");
-}
- console.log("The ticket price is "+results);
 
 
 
