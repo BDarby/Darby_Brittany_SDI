@@ -37,7 +37,7 @@ console.log(a);
 var yearBorn = 1993;
 
 //age is calculated by current year minus year born
-var currentYear = 2015
+var currentYear = 2015;
 
 var age = currentYear - yearBorn - 1;
 console.log(age);
@@ -55,7 +55,7 @@ console.log(areaTrangle);
 
 // modulo - %
 //Gives remainder
-var remainder = 32%10
+var remainder = 32%10;
 console.log (remainder);
 
 //Find if even or odd
@@ -71,10 +71,10 @@ console.log(evenOrgOdd);
  ++ Adds 1 to the variable
  -- subtracts from the variable
 +-  Addition assignment
-+= number addtion assignment
++= number addition assignment
 -= number minus assignment
-/= number division assigment
-*= number mutiply assignment
+/= number division assignment
+*= number multiply assignment
  */
 
 var counter = 1 ;
@@ -110,11 +110,11 @@ console.log(frogName);
 //Double quote or single quote?
 // can use an escaping character \backslash in front od the apostrophe
 
-var phase = 'I don\'t know'
+var phase = 'I don\'t know';
 console.log(phase);
 
 // Multi-lines by using \n - new line characters
-var phase2 = "I don't know! \nYou never know;"
+var phase2 = "I don't know! \nYou never know;";
 console.log(phase2);
 
 // Boolean
