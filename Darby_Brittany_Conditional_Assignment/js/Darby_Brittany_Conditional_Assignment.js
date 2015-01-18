@@ -28,10 +28,10 @@ if (oranges == 0) {
     console.log("You have a small bowlfull of oranges");
 }else if (oranges >=3 || oranges<6) {
     console.log ("You have a full bowl of oranges");
-}else if (oranges>8 || oranges<10) {
+}else if (oranges>7 || oranges<10) {
     console.log("You have a bushel of oranges");
 }else(
-    console.log("You didn't enter a number")
+    console.log("You didn't enter the right number")
 )
 
 var pears= parseInt(prompt("Please enter how many peats you have, a number 0-14"));
@@ -44,9 +44,10 @@ if (pears==0) {
 }else if (pears>=10 || pears<=14) {
     console.log("You a bushel of pears");
 }else(
-    console.log("You didn't enter a number")
+    console.log("You didn't enter the right number")
 )
 
-console.log("You have enter the numbers")
+var total= apples+oranges+pears
+console.log("You have enter the numbers " + apples+ " for apples "+ oranges+ " for oranges and, " +pears+ " for pears. All together that equals "+total+ " pieces of fruit");
 
 
