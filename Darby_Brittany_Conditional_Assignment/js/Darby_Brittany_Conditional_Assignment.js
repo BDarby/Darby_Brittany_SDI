@@ -20,6 +20,8 @@ if (apples == 0) {
 }else(
     console.log("You didn't enter a correct number")
 )
+//conditonal 1
+//I used || and && in this coditional
 
 var oranges= parseInt(prompt("Please enter how many pears you have, a number 0- 10"));
 if (oranges == 0) {
@@ -33,6 +35,8 @@ if (oranges == 0) {
 }else(
     console.log("You didn't enter the right number")
 )
+//conditonal 2
+//I used || in this conditional
 
 var pears= parseInt(prompt("Please enter how many peats you have, a number 0-14"));
 if (pears==0) {
@@ -46,8 +50,29 @@ if (pears==0) {
 }else(
     console.log("You didn't enter the right number")
 )
+//conditonal 3
+//I used || in this conditional
+
+
 
 var total= apples+oranges+pears
 console.log("You have enter the numbers " + apples+ " for apples "+ oranges+ " for oranges and, " +pears+ " for pears. All together that equals "+total+ " pieces of fruit");
+// this is my math
+
+
+
+var yes= console.log("You can mix all the fruits together to make a fruit salad");
+var no= console.log("Then you won't have a fruit salad");
+
+var fruitSalad= prompt("Do you want a fruit salad?, enter yes or no?");
+
+
+(fruitSalad==yes) ? console.log("You can mix all the fruits together to make a fruit salad") : "Then you won't get a fruit salad";    
+
+//above is my attempt on doing a ternary statement...a very bad attempt.
+
+
+
+
 
 
