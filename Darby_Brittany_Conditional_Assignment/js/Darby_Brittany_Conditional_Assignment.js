@@ -67,7 +67,7 @@ var no= console.log("Then you won't have a fruit salad");
 var fruitSalad= prompt("Do you want a fruit salad?, enter yes or no?");
 
 
-(fruitSalad==yes) ? console.log("You can mix all the fruits together to make a fruit salad") : "Then you won't get a fruit salad";    
+(fruitSalad==yes)? console.log("You can mix all the fruits together to make a fruit salad") : console.log("Then you won't get a fruit salad");    
 
 //above is my attempt on doing a ternary statement...a very bad attempt.
 
