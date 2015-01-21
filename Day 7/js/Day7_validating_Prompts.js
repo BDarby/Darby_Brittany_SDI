@@ -20,7 +20,7 @@ if (userInput===" ") {
 
 var firstName= prompt("Please type in your first name:");
 
-while(firstName===" "){
+while(firstName===""){
     //this means the user typed in nothing
     //reprompt for the first time
     firstName= prompt("please type in your first name and DON'T LEAVE IT BLANK ");
@@ -47,14 +47,14 @@ while(isNaN(age) || age ===""){
     age=prompt("only use numbers, please enter your age");
 }
 
-
-//convert to lower case
-choice= choice.toLowerCase();
-
 var choice= prompt("Please type in yes or no");
+//convert to lower case
+choice = choice.toLowerCase();
+
+
 
 while (choice!="yes" && choice!="no") {
-    choice= prompt("please type in yes or no")
+    choice = prompt("please type in yes or no")
 }
 
 
