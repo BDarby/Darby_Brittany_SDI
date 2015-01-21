@@ -19,6 +19,10 @@ do{
     console.log("There are "+days+ " days");
 } while (days<31);
 
+
+
+
+
 //This is my while loop
 
 var scoops=1;
@@ -27,4 +31,38 @@ while (scoops<4) {
     scoops++;
     
 }
+
+
+//This is my for loop
+
+for(var dog=1; dog<7; dog++)
+console.log("You have "+dog+" Dog(S)");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
