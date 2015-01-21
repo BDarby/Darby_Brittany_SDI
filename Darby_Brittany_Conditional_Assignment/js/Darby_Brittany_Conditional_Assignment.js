@@ -20,8 +20,20 @@ if (apples == 0) {
 }else(
     console.log("You didn't enter a correct number")
 )
+while (apples===""){
+    apples=prompt("Please enter a number 0-24")  // this is my validations
+}
+while(isNaN(apples) || apples ===""){
+apples=prompt("Please enter a number 0-24")
+}
+
+
 //conditonal 1
 //I used || and && in this coditional
+
+
+
+
 
 var oranges= parseInt(prompt("Please enter how many pears you have, a number 0- 10"));
 if (oranges == 0) {
@@ -38,7 +50,17 @@ if (oranges == 0) {
 //conditonal 2
 //I used || in this conditional
 
-var pears= parseInt(prompt("Please enter how many peats you have, a number 0-14"));
+while (oranges===""){
+    oranges=prompt("Please enter a number 0-10")  // this is my validations
+}
+while(isNaN(oranges) || oranges ===""){
+oranges=prompt("Please enter a number 0-10")
+}
+
+
+
+
+var pears= parseInt(prompt("Please enter how many pears you have, a number 0-14"));
 if (pears==0) {
     console.log("You have no pears")
 }else if (pears<=4) {
@@ -54,6 +76,15 @@ if (pears==0) {
 //I used || in this conditional
 
 
+while (pears===""){
+    pears=prompt("Please enter a number 0-14")//this is my validations 
+}
+while(isNaN(pears) || pears ===""){
+pears=prompt("Please enter a number 0-14")
+}
+
+
+
 
 var total= apples+oranges+pears
 console.log("You have enter the numbers " + apples+ " for apples "+ oranges+ " for oranges and, " +pears+ " for pears. All together that equals "+total+ " pieces of fruit");
@@ -61,15 +92,13 @@ console.log("You have enter the numbers " + apples+ " for apples "+ oranges+ " f
 
 
 
-var yes= console.log("You can mix all the fruits together to make a fruit salad");
-var no= console.log("Then you won't have a fruit salad");
 
 var fruitSalad= prompt("Do you want a fruit salad?, enter yes or no?");
 
 
-(fruitSalad==yes)? console.log("You can mix all the fruits together to make a fruit salad") : console.log("Then you won't get a fruit salad");    
+(fruitSalad=="yes")? console.log("You can mix all the fruits together to make a fruit salad") : console.log("Then you won't get a fruit salad");    
 
-//above is my attempt on doing a ternary statement...a very bad attempt.
+//above is my attempt on doing a ternary statement.
 
 
 
