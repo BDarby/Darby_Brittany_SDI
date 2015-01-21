@@ -7,14 +7,24 @@
 
 //alert("testing");
 
-
+//This is my Do while loop
 var days=0;
 
 do{
    
     days++;
     if (days===31) {
-        break;
+        break;    //I used a break
     }
     console.log("There are "+days+ " days");
 } while (days<31);
+
+//This is my while loop
+
+var scoops=1;
+while (scoops<4) {
+    console.log("You have " +scoops+ " scoops of icecream");
+    scoops++;
+    
+}
+
