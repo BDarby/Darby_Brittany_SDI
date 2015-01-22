@@ -17,7 +17,7 @@ while(movie===""){
 
 
 //test to see if the user typed in a number or not
-//isNsN() - is not a number
+//isNaN() - is not a number
 //text strings return true
 //numbers returns false
 

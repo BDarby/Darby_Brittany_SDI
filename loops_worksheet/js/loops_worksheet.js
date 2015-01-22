@@ -11,14 +11,17 @@
 
 var days=prompt("Please enter the day you would like to start at, 1-31")
 
-do{
-    while (isNaN(days)) {
-        days=prompt("PLEASE enter a NUMBER 1-31!"); 
-    }
-    
-    console.log("There are "+(days)+ " days");
+do (days<=31){
+    console.log("You started at day "+days);
     days++;
-} while (days<=31);
+}
+while (isNaN(days)) {
+    days= prompt("Please enter a valid number again");
+}
+
+    
+    
+    
 
 //the other teacher, vik?, helped with this but does not work
 
@@ -30,7 +33,7 @@ var scoops=prompt("Enter the number of scoops you would like 1-4");
 
 while (scoops<=4) {
 do{
-   while (isNaN("scoops") && age===""){ 
+   while (isNaN(scoops) && scoops===""){ 
         scoops=prompt("PLEASE ENTER A NUMBER 1-4");
        scoops++;  //this is the counter
     }
@@ -57,4 +60,5 @@ while (isNaN("dogs")){
 break;
 }
 }
+
 //^^sometimes errors come up with that last bracket idk why.
