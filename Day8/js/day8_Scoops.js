@@ -28,4 +28,8 @@ function calcPeri(){
 console.log("Before call "+width);
 calcPeri();
 console.log("An after call "+width);
+
+
+//WILL NOT WORK
+//can't access a code a variable declared inside of a function from your main code.
 console.log("After call the perimeter is "+perimeter);

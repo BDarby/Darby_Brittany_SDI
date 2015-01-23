@@ -9,22 +9,14 @@
 
 //This is my Do while loop
 
-var days=prompt("Please enter the day you would like to start at, 1-31")
+var days;
 
-do (days<=31){
-    console.log("You started at day "+days);
-    days++;
-}
-while (isNaN(days)) {
-    days= prompt("Please enter a valid number again");
-    days++;
-}
+do{
+    days=prompt("Please enter a number 1-31");
+} while ((days==="") || isNaN(days));
+
 
     
-    
-    
-
-//the other teacher, vik?, helped with this but does not work, just redid it.
 
 
 
@@ -32,9 +24,7 @@ while (isNaN(days)) {
 
 var scoops=prompt("Enter the number of scoops you would like 1-4");
 
-while (scoops<=4) {
-    
-    (isNaN(scoops) || scoops===""){ 
+while (isNaN(scoops) || scoops===""){ 
         scoops=prompt("PLEASE ENTER A NUMBER 1-4");
          
        console.log("You have "+scoops+" scoops of ice cream");
@@ -42,20 +32,33 @@ while (scoops<=4) {
     }
      
 
-//^^keeps getting stuck in infinite loop. fml
+
 
 
 
 //This is my for loop
-dog=prompt("Enter a number of dog(s) you have, 1-7")
+dog=prompt("Enter a number of dog(s) you have, 1-7");
 
-for(var dog=1; dog<=7; dog++){
+for(var dog; dog<=7; dog++){
 
 console.log("You have "+dog+" Dog(S)"); 
 }
-while (isNaN("dogs")|| dogs===""){
+while (isNaN(dog)|| dog===""){
     dog=prompt("Please enter a number 1-7");
-    dog++; //this is the counter
+     console.log("You have "+dog+" Dog(S)");
 }
 
 //this does infinite loop as well
+
+
+
+
+
+
+
+
+
+
+
+
+
