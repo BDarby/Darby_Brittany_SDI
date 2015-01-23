@@ -17,13 +17,14 @@ do (days<=31){
 }
 while (isNaN(days)) {
     days= prompt("Please enter a valid number again");
+    days++;
 }
 
     
     
     
 
-//the other teacher, vik?, helped with this but does not work
+//the other teacher, vik?, helped with this but does not work, just redid it.
 
 
 
@@ -32,15 +33,14 @@ while (isNaN(days)) {
 var scoops=prompt("Enter the number of scoops you would like 1-4");
 
 while (scoops<=4) {
-do{
-   while (isNaN(scoops) && scoops===""){ 
-        scoops=prompt("PLEASE ENTER A NUMBER 1-4");
-       scoops++;  //this is the counter
-    }
-    console.log("You have "+scoops+" scoops of ice cream");
-    scoops++;//do I need 2 counters?
     
-}while (days<=4); 
+    (isNaN(scoops) || scoops===""){ 
+        scoops=prompt("PLEASE ENTER A NUMBER 1-4");
+         
+       console.log("You have "+scoops+" scoops of ice cream");
+    scoops++;//do I need 2 counters?
+    }
+     
 
 //^^keeps getting stuck in infinite loop. fml
 
@@ -49,16 +49,13 @@ do{
 //This is my for loop
 dog=prompt("Enter a number of dog(s) you have, 1-7")
 
-for(var dog=1; dog<7; dog++){
+for(var dog=1; dog<=7; dog++){
 
-console.log("You have "+(dog+1)+" Dog(S)"); //how to add plus one?
-
-while (isNaN("dogs")){
+console.log("You have "+dog+" Dog(S)"); 
+}
+while (isNaN("dogs")|| dogs===""){
     dog=prompt("Please enter a number 1-7");
     dog++; //this is the counter
 }
-break;
-}
-}
 
-//^^sometimes errors come up with that last bracket idk why.
+//this does infinite loop as well
