@@ -20,7 +20,7 @@ if (userInput===" ") {
 
 var firstName= prompt("Please type in your first name:");
 
-while(firstName===""){
+while(firstName===""){     //while makes it come up multiple times
     //this means the user typed in nothing
     //reprompt for the first time
     firstName= prompt("please type in your first name and DON'T LEAVE IT BLANK ");

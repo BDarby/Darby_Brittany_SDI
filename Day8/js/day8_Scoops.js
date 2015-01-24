@@ -22,8 +22,8 @@ function calcPeri(){
     var width=10; //scoped to the function calcPeri
     console.log("Inside of the function the value of width is "+width);
     var height=20
-    var perimter= width*2+height*2;
-    console.log("Inside the function the perimeter is "+perimter);
+    var perimeter= width*2+height*2;
+    console.log("Inside the function the perimeter is "+perimeter);
 }
 console.log("Before call "+width);
 calcPeri();
@@ -32,4 +32,4 @@ console.log("An after call "+width);
 
 //WILL NOT WORK
 //can't access a code a variable declared inside of a function from your main code.
-console.log("After call the perimeter is "+perimeter);
+//console.log("After call the perimeter is "+perimeter);
