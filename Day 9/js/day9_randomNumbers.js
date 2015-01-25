@@ -48,3 +48,18 @@ for (var i=0; i<15; i++) {
     console.log(randomnizer(min,max));
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
