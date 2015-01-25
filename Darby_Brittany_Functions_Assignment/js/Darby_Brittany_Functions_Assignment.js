@@ -20,7 +20,17 @@ while(length==="" || isNaN(length)){
 
 var height=prompt("Please enter a number for the height");
 while (height==="" || isNaN(height)) {
-    length=prompt("Please re enter a number for height")
+    height=prompt("Please re enter a number for height")
 }
 
+//the is the normal funcntion
 
+function rectPrism(w,l,h) {
+    area= 2*width*length+2*height*length+2*height*width
+    return area
+}
+var rectPrism2=rectPrism (width,length,height);
+console.log(rectPrism2);
+
+//I put the 3 in for width, 4 in for length, and 5 in for height
+// 2*3*4+2*5*4+2*5*3=94
