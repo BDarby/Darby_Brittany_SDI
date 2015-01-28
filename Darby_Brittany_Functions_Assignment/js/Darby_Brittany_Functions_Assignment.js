@@ -1,7 +1,8 @@
 /*
  *Brittany Darby
- *1-24-2015
+ *1-27-2015
  *Functions Assignment
+ *SDI C201501
  */
 
 //alert("testing");
@@ -20,13 +21,13 @@ var height=prompt("Please enter a number for the height");
 while (height==="" || isNaN(height)) {
     height=prompt("Please re enter a number for height")
 }
-
+//above are my prompts
 
 
 //the is the normal funcntion
 
 function rectPrism(w,l,h) {
-    area= 2*width*length+2*height*length+2*height*width;
+    area= 2*width*length+2*height*length+2*height*width;  //this is the formula for a rectangular prism
     return area
 }
 var rectPrism2=rectPrism (width,length,height);
@@ -62,7 +63,7 @@ var cubeAnon= function(volumn){
 }
 var cube2= cubeAnon(cube);
 console.log("This is the other anon function. \nYou enter the number " +cube+ ", the volumn of your cube is "+cube2);// my concatenation
-//I did entered 4 and got 64, which would be the right answer.
+//I entered 4 and got 64, which would be the right answer.
 
 
 
