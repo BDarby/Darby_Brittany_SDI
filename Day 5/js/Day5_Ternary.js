@@ -15,6 +15,8 @@ Ternary
 
 var gPA= 3.8;
 
+
+//this is the regualar way
  if(gPA>2.0){
   console.log ("congrats you can graduate");
  } else {
