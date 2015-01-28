@@ -21,3 +21,15 @@ for(var i=99; i>0; i--){
     
     
 }
+
+
+//this is a for loop
+for (var bb=54; bb>0; bb--){
+  if (bb===1) {
+    console.log("You have "+bb+" bottle of vodka");
+  }else{
+    console.log("You have "+bb+" bottles of vodka");
+  }
+}
+
+//got it right!!

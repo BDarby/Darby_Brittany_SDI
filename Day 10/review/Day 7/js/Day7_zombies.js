@@ -53,6 +53,19 @@ console.log("It will take "+daysTake+ " days for one million zombies")
 
 
 
+var cheeseBurgers=2
+var daysOfWeek=4
+var months=12
+var numCheeseBur=0
+
+while (numCheeseBur<=100) {
+    var fatAss=(cheeseBurgers*daysOfWeek)+months;
+    numCheeseBur+=fatAss;
+    
+}
+console.log("The unhealthy gentleman ate "+fatAss+" hamburgers");
+
+
 
 
 

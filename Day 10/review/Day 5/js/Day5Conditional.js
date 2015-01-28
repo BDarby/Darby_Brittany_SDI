@@ -97,6 +97,21 @@ code to run if condition1 & condition are false
  */
 
 
+var kite=parseInt(prompt("Enter some number"));
+
+while (kite==="" || isNaN(kite)){
+     kite=parseInt(prompt("PLEASE enter a number"));
+}
+
+if (kite<=23) {
+   console.log ("You can fly it");
+}else{
+   console.log("YOu can't");
+}
+
+//can't validate an if else state like i did before.
+
+
 
 
 

@@ -51,6 +51,36 @@ Logical Operators
   console.log("Keep your basic tv");
  }
 
+//this is practice for the exam
+var popcorn=2
+var moneyIGot=10
+var drink=9
+
+
+if (popcorn<moneyIGot && moneyIGot>drink) {
+    console.log("you can get the drink and the popcorn");
+}else{
+    console.log ("You can't get anything, BYE FELICIA!");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
