@@ -45,8 +45,33 @@ Prompting
  ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 num=15
-fish=(num<14) ? "keep fish" : "get rid of fish";   //go to have two things right here
+fish=(num<14) ? "keep fish" : "get rid of fish";   //got to have two things right here
  var fish2=(num<14) ? "keep the fish" : "get rid of the fish";//same with this one.
 
  console.log(fish);
  console.log(fish2);
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
