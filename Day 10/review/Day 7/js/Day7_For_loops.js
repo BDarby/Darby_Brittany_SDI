@@ -37,7 +37,7 @@ for (var k=0; k<5; k++) {
         break;
     }
 }
-
+//practice
 
 for (var cat=0; cat<20; cat++) {
     console.log("You have "+cat+" cats.");
